@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="./style/style.css"> 
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./pages/index.js">
+  <script src="./pages/index.js"></script>
+  <title>Путешествия по России</title> 
+</head>
+<body class="page">
+    <div class="page__container">
+        <header class="header">
+            <img class="header__logo" src="./images/logo.png" alt="Логотип Место">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <div class="profile__container">
+                    <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватар">
+                    <div class="profile__info">
+                        <div class="profile__main-info">
+                            <h1 class="profile__name">Жак-Ив Кусто</h1>
+                            <button type="button" class="profile__edit-button"></button>
+                        </div>
+                        <h2 class="profile__post">Исследователь океана</h2>
+                    </div>
+                </div>
+                <button type="button" class="profile__add-button"></button>
+            </section>
+            <section class="elements">
+                <ul class="elements__list">
+                    <li class="element">
+                        <img class="element__mask-group" src="./images/karachaevsk.jpg" alt="Фото">
+                        <div class="element__container">
+                            <p class="element__text">Карачаевск</p>
+                            <button type="button" class="element__button" src="./images/heart.png"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img class="element__mask-group" src="./images/elbrus.png" alt="Фото">
+                        <div class="element__container">
+                            <p class="element__text">Гора Эльбрус</p>
+                            <button type="button" class="element__button" src="./images/heart.png"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img class="element__mask-group" src="./images/dombai.png" alt="Фото">
+                        <div class="element__container">
+                            <p class="element__text">Домбай</p>
+                            <button type="button" class="element__button" src="./images/heart.png"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img class="element__mask-group" src="./images/elbrus.png" alt="Фото">
+                        <div class="element__container">
+                            <p class="element__text">Гора Эльбрус</p>
+                            <button type="button" class="element__button" src="./images/heart.png"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img class="element__mask-group" src="./images/dombai.png" alt="Фото">
+                        <div class="element__container">
+                            <p class="element__text">Домбай</p>
+                            <button type="button" class="element__button" src="./images/heart.png"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img class="element__mask-group" src="./images/karachaevsk.jpg" alt="Фото">
+                        <div class="element__container">
+                            <p class="element__text">Карачаево-Черкесия</p>
+                            <button type="button" class="element__button"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title">&copy; 2023 Mesto Russia</p>
+        </footer>
+        <div class="popup">
+            <div class="popup__container">
+                <button type="button" class="popup__close-button"></button>
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <form class="popup__form">
+                    <input type="text" class="popup__input popup__input_id_name" name="name" id="name" value="">
+                    <input type="text" class="popup__input popup__input_id_title" name="about" id="title" value="">
+                    <button type="submit" class="popup__save-button">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
