@@ -3,4 +3,12 @@
 	height: 361px;
 	background-color: #fff;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 645px) {
+    .element {
+        margin: auto;
+    }
 }

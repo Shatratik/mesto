@@ -1,7 +1,6 @@
 .element__container {
-	max-width: 246px;
 	display: flex;
-	margin: 25px 21px 31px;
+	margin: 25px 15px 9px 21px;
 	justify-content: space-between;
 	align-items: center;
 }

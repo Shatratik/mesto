@@ -3,3 +3,9 @@
 	align-items: center;
     gap: 18px;
 }
+
+@media screen and (max-width: 645px) {
+    .profile__main-info {
+        gap: 15.25px;
+    }
+}

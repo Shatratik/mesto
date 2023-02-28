@@ -5,7 +5,7 @@
 	justify-content: space-between;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 645px) {
     .profile {
         margin-top: 38.25px;
         flex-direction: column;

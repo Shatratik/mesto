@@ -6,8 +6,7 @@
   <link rel="stylesheet" href="./style/style.css"> 
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="./pages/index.js">
-  <script src="./pages/index.js"></script>
-  <title>Путешествия по России</title> 
+  <title>Место</title> 
 </head>
 <body class="page">
     <div class="page__container">
@@ -23,7 +22,7 @@
                             <h1 class="profile__name">Жак-Ив Кусто</h1>
                             <button type="button" class="profile__edit-button"></button>
                         </div>
-                        <h2 class="profile__post">Исследователь океана</h2>
+                        <h2 class="profile__title">Исследователь океана</h2>
                     </div>
                 </div>
                 <button type="button" class="profile__add-button"></button>
@@ -80,14 +79,15 @@
         </footer>
         <div class="popup">
             <div class="popup__container">
-                <button type="button" class="popup__close-button"></button>
-                <h2 class="popup__title">Редактировать профиль</h2>
-                <form class="popup__form">
-                    <input type="text" class="popup__input popup__input_id_name" name="name" id="name" value="">
-                    <input type="text" class="popup__input popup__input_id_title" name="about" id="title" value="">
-                    <button type="submit" class="popup__save-button">Сохранить</button>
-                </form>
+              <button class="popup__close-button" type="button"></button>
+              <h2 class="popup__title">Редактировать профиль</h2>
+              <form class="popup__form" name="profileForm" action="" method="post">
+                <input type="text" class="popup__input popup__input_id_name" name="name" id="name" value="">
+                <input type="text" class="popup__input popup__input_id_title" name="title" id="title" value="">
+                <button class="popup__save-button" type="submit">Сохранить</button>
+              </form>
             </div>
         </div>
+          <script src="./pages/index.js"></script>
     </div>
 </body>
