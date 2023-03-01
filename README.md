@@ -7,4 +7,4 @@
 JavaSript
 
 ## ССылка на проект:
-https://github.com/Shatratik/mesto
+https://shatratik.github.io/mesto/
