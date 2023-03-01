@@ -1,7 +1,6 @@
-/* Контейнер */
 .element__container {
 	display: flex;
-	margin: 25px 15px 9px 21px;
+	margin: 25px 15px 31px 21px;
 	justify-content: space-between;
 	align-items: center;
 }

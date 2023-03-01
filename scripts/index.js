@@ -1,7 +1,6 @@
 let editButton = document.querySelector('.profile__edit-button');
 let popup = document.querySelector('.popup');
 let close = document.querySelector('.popup__close-button');
-let save = document.querySelector('.popup__save-button');
 let name = document.querySelector('.profile__name');
 let title = document.querySelector('.profile__title');
 
@@ -36,7 +35,7 @@ function handleFormSubmit (evt) {
 
     name.textContent = nameInput.value;
     title.textContent = jobInput.value;
-    popup.classList.remove('popup_opened');
+    handleClose();
     // Выберите элементы, куда должны быть вставлены значения полей
 
     // Вставьте новые значения с помощью textContent
@@ -44,4 +43,4 @@ function handleFormSubmit (evt) {
 
 // Прикрепляем обработчик к форме:
 // он будет следить за событием “submit” - «отправка»
-save.addEventListener('submit', handleFormSubmit); 
+formElement.addEventListener('submit', handleFormSubmit); 
