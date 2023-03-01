@@ -6,8 +6,8 @@
 	flex-direction: column;
 }
 
-@media screen and (max-width: 645px) {
-    .element {
-        margin: auto;
-    }
-}
+/* @media screen and (max-width: 645px) {
+	.element {
+		margin: auto;
+	}
+} */

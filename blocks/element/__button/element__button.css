@@ -6,12 +6,12 @@
     border: none;
 }
 
-.element__button:hover{
+.element__button:hover {
     opacity: 0.5;
     transition: 0.5s all ease;
 }
 
-.element__button:active{
+.element__button:active {
     opacity: 1;
     background: url(../../../images/black.svg) no-repeat center;
 }
