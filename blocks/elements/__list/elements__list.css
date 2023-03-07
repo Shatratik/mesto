@@ -2,9 +2,18 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
-	justify-content: center;
 	row-gap: 20px;
 	column-gap: 17px;
 	list-style-type: none;
 	padding: 0;
+}
+
+.black__heart{
+	background: url(../../../images/black.svg) no-repeat center !important;
+}
+
+@media screen and (max-width: 645px) {
+    .elements__list {
+        justify-content: center;
+    }
 }
